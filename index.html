@@ -18,25 +18,27 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
  
          
-  
+  <script type= "text/javascript" src="assets/javascript/game.js"></script>
   
       
    <!-- Link to CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assests/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 <!-- Link to javascript-->
-<script type= "text/javascript" src="assets/javascript/game.js"></script>
+
 
 </head>
+<body>
 
-<div class="jumbotron">
-    <h1>Hangman game</h1>
+<h1 id="heading">Hangman Game</h1>
+<div id="playArea">
+    <p id="targetWord"></p>
+    <p id="incorrectGuesses"></p>
+    <p id="showLives"></p>
+    <p id="winsLoss"> </p>
 </div>
 
-<div id="game">
-
-</div>
-
-
+<script type= "text/javascript" src="assets/javascript/game.js"></script>
+</body>
 </html>
